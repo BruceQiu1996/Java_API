@@ -1,0 +1,17 @@
+2019/02/01-15:01 [main] INFO  com.dingding.ManageStudio.ManageStudioApplication- Starting ManageStudioApplication on rgbr-javavm with PID 1700 (C:\Users\sumuth\Downloads\ManageStudio\target\classes started by sumuth in C:\Users\sumuth\Downloads\ManageStudio)
+2019/02/01-15:01 [main] INFO  com.dingding.ManageStudio.ManageStudioApplication- No active profile set, falling back to default profiles: default
+2019/02/01-15:01 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner- No MyBatis mapper was found in '[com.dingding.ManageStudio.helper, com.dingding.ManageStudio]' package. Please check your configuration.
+2019/02/01-15:01 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2019/02/01-15:01 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/02/01-15:01 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/02/01-15:01 [main] INFO  org.apache.catalina.core.AprLifecycleListener- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_201\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Java\jdk1.8.0_201\jre\bin;C:\Users\sumuth\AppData\Local\Microsoft\WindowsApps;;C:\eclipse;;.]
+2019/02/01-15:01 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/02/01-15:01 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2955 ms
+2019/02/01-15:01 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/02/01-15:01 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+2019/02/01-15:01 [main] INFO  com.dingding.ManageStudio.ManageStudioApplication- Started ManageStudioApplication in 5.381 seconds (JVM running for 6.233)
+2019/02/01-15:01 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/02/01-15:01 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/02/01-15:01 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 12 ms
+2019/02/01-15:01 [http-nio-8080-exec-1] INFO  com.dingding.ManageStudio.helper.HttpClientHelper- Get requestUrl is :https://oapi.dingtalk.com/gettoken?appsecret=Zvcgf14tbS_vQ4eaGZVRZMTQlZVj2gJ7X23cLClAjWZ2Gv4wuBpZSsbHBv6dazVy&appkey=dingwryn5vciyuavbooe
+2019/02/01-15:01 [http-nio-8080-exec-1] INFO  com.dingding.ManageStudio.helper.DingdingHelper- access token info:{"expires_in":7200,"errmsg":"ok","access_token":"5a99e289f1e73d25ba9f3e30355d46aa","errcode":0}
